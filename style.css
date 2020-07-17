@@ -1,0 +1,535 @@
+re/*
+Theme Name: Sparrow
+*/
+
+body
+{
+	background: url(assets/images/vegetable.jpg) no-repeat;
+}
+header.entry-header
+{
+    display: none;
+}
+.skidka
+{
+    color: black;
+}
+#primary-page-one .sfsi_socialwpr .sf-fb
+{
+    margin-right: 20px;
+}
+#primary-page-one .sf_twiter
+{
+    margin-left: 20px;
+}
+#secondary a:hover, a:focus 
+{ 
+    color: #000; 
+}
+#page-content .respond-com
+{
+    width: 80%;
+    margin-left: 15%;
+}
+#wpforms-form-1243, #wpforms-form-1253, #wpforms-form-1257, #wpforms-form-1263 
+{
+    border: 1px solid gray;
+}
+#wpforms-form-1269, #wpforms-form-1273, #wpforms-form-1286, #wpforms-form-1299
+{
+    border: 1px solid gray;
+}
+#wpforms-form-1243 .wpforms-submit-container,
+#wpforms-form-1253 .wpforms-submit-container,
+#wpforms-form-1257 .wpforms-submit-container,
+#wpforms-form-1263 .wpforms-submit-container,
+#wpforms-form-1269 .wpforms-submit-container,
+#wpforms-form-1273 .wpforms-submit-container,
+#wpforms-form-1286 .wpforms-submit-container,
+#wpforms-form-1299 .wpforms-submit-container
+{
+    padding: 5px 0 10px 20px;
+}
+#wpforms-form-1243 .wpforms-submit-container button,
+#wpforms-form-1253 .wpforms-submit-container button,
+#wpforms-form-1257 .wpforms-submit-container button,
+#wpforms-form-1263 .wpforms-submit-container button,
+#wpforms-form-1269 .wpforms-submit-container button,
+#wpforms-form-1273 .wpforms-submit-container button,
+#wpforms-form-1286 .wpforms-submit-container button,
+#wpforms-form-1299 .wpforms-submit-container button
+{
+    padding: 5px 12px;
+    font-size: 14px;
+}
+#wpforms-form-1243 .wpforms-field-container,
+#wpforms-form-1253 .wpforms-field-container,
+#wpforms-form-1257 .wpforms-field-container,
+#wpforms-form-1263 .wpforms-field-container,
+#wpforms-form-1269 .wpforms-field-container,
+#wpforms-form-1273 .wpforms-field-container,
+#wpforms-form-1286 .wpforms-field-container,
+#wpforms-form-1299 .wpforms-field-container
+{
+    margin-left: 20px;
+}
+#wpforms-form-1243 .wpforms-field-container label,
+#wpforms-form-1253 .wpforms-field-container label,
+#wpforms-form-1257 .wpforms-field-container label,
+#wpforms-form-1263 .wpforms-field-container label,
+#wpforms-form-1269 .wpforms-field-container label,
+#wpforms-form-1273 .wpforms-field-container label,
+#wpforms-form-1286 .wpforms-field-container label,
+#wpforms-form-1299 .wpforms-field-container label
+{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+#primary-main-two .porfolio-wrapper div
+{
+   text-align: center;
+   margin-bottom: 20px;
+}
+.home_page {   /* общие стили для блока */
+ margin: 10px 0 0 10px;   /* внешние отступы */
+ border-left: 1px solid #65BEC4;
+}
+#secondary .home_page2 
+{   /* общие стили для блока */
+ margin: 20px 0 0 20px;   /* внешние отступы */
+ border-right: 1px solid #65BEC4;
+}
+.home_page img
+{
+    width: 75px;
+    height: 75px;
+}
+.home_page a{        /* стили для ссылок-заголовков */ 
+ -font-weight: bold;  /* выделение ссылки жирным */
+ text-align: left;   /* прижимаем текст к левому краю */
+ margin-left: 5px;  /* отступ от левого края */
+ font-size: 14px;     /* размер шрифта*/
+}
+.home_page img{  /* стили для миниатюр */
+ float: left;    /* обтекание текста по левому краю */
+ margin: 10px;    /* внешние отступы */
+ }
+.home_page table {                  /* стили для таблицы */
+ border-bottom: 1px solid #f2f2f2;  /* черта по верхнему краю ячейки */
+ border-left: 1px solid #f2f2f2; 
+}
+.nf-form-content
+{
+    display: flex;
+}
+.nf-form-content .nf-field-14 input
+{
+    width: 50%;
+}
+.nf-form-content .nf-field-15 input
+{
+    width: 50%;
+}
+#secondary .reklama_rozetka
+{
+    height: 14px;
+    width: 50px;
+}
+.reklama
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.reklama_alfa1
+{
+    width: 25%;
+    -margin-left: 15%;
+}
+.reklama_alfa1 img
+{
+    width: auto;
+    height: auto;
+}
+.secondary_reklama img
+{
+    width: 95%;
+    height: auto; 
+}
+.secondary_reklama
+{
+    width: 80%;
+    height: auto;
+    
+}
+.secondary_reklama div
+{
+    margin-left: 10px;
+}
+    
+.text_children p
+{
+margin-top: 20px;
+}
+.d1
+{
+	-display: flex;
+}
+.post-content .alignnone .size-medium .wp-image-927 img
+{
+    width: 50%;
+}
+.christmas12-text
+{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.christmas12-text p
+{
+    font-size: 18px;
+}
+#secondary .widget_categories li
+{
+    margin-bottom: 4px;
+}
+#secondary .widget_recent_entries li
+{
+    margin-bottom: 10px;
+}
+.post-content ul li
+{
+    margin-left: 50px;
+}
+.post-content ol li
+{
+    line-height: 1.7;
+}
+.slider-image a
+{
+	font-size: 16px;
+}
+
+.top-nav
+{
+	display:  block;
+	align-items: center;
+	z-index: 99999;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 350px;
+}
+.top-nav a
+{
+	padding-top: 20px;
+}
+.top-nav .icon
+{
+	display: block;
+	opacity: 0;
+	font-size: 25px;
+	font-size: 1.6rem;
+}
+#primary-page-one .post .entry-header h1
+{
+    font: 30px;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px)
+{
+.slider-image a
+{
+   font-size: 14px; 
+}
+}
+@media screen and (min-width: 600px) and (max-width: 900px)
+{
+.slider-image a
+{
+   font-size: 12px; 
+}
+}
+
+
+	
+	@media screen and (max-width: 770px)
+{
+.top-nav a
+	{
+		display: none;
+		text-align: center;
+	}
+.top-nav .icon
+	{
+		opacity: 1;
+		z-index: 99999;
+	}
+#nav-wrap .top-nav a
+	{
+		margin-top: -20px;
+		display: block;
+		font-size: 25px;
+		color: #fff;
+		z-index: 99999;
+		position: relative;
+	}
+.top-nav.responsive
+	{
+		position: relative;
+		padding-top: 30px;
+		margin: auto;
+	}
+header .top-nav.responsive
+	{
+		height: 250px;
+		position: absolute;
+		right: 30px;
+	}
+.top-nav.responsive a.icon
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+.top-nav.responsive a
+	{
+		float: none;
+		display: block;
+	}
+.top-nav a:not(:last-child)
+	{
+		padding-bottom: 0px;
+		padding-right: 0px;
+	}
+.top-nav a
+	{
+	text-align: right;
+	}
+}
+#portfolio-wrapper
+{
+    margin-top: 170px;
+}
+#primary-main .item-wrap a
+{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#portfolio-wrapper .portfolio-item-meta a
+{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#portfolio-wrapper-one .portfolio-item-meta a
+{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.form_d1
+{
+	display: flex;
+}
+header form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+header .d1 input {
+  width: 350px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 2px solid #f5f5f5;
+  background: #fff;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+  margin-bottom: 0;
+}
+header input:focus {
+  width: 400px;
+  background: #f5f5f5;
+}
+header button {
+  width: 42px;
+  height: 42px;
+  background: #fff;
+  border: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+header button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+
+.d1 .columns
+{
+	padding: 0;
+}
+#secondary a:hover
+{
+    color: #057e84;
+}
+#primary-page-one .post-content ul
+{
+	list-style: disc;
+	
+}
+#primary-page-one .post-content li
+{
+	list-style-type: ;
+}
+#primary-page-one .step ul
+{
+	
+}
+#primary-page-one .step li
+{
+	list-style-type: decimal;
+}
+.sfsi_wDiv 
+{
+   width: 100%; 
+}
+#sfsi_wDiv .norm_row
+{
+   width: 100%; 
+}
+.post-content strong
+{
+	
+}
+#nav a:visited
+{
+.post-thumb-category img
+{
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.children_title
+{
+	-background: url(assets/images/doski.png) repeat;
+	-background-size: cover;
+	-height: 200px;
+}
+.text_children p
+{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 30px;
+}
+.newyear_title
+{
+	-background: url(assets/images/doski.png) repeat;
+	-background-size: cover;
+	-max-height: 200px;
+	-height: 100%;
+}
+.children_title h1, .newyear_title h1, .dieta_title h1
+{
+	-padding-top: 25px;
+	padding-bottom: 25px;
+}
+#portfolio-wrapper-one .qwa h1
+{
+    margin-bottom: 30px;
+}
+.dieta_title
+{
+	background: url(assets/images/dieta.png) repeat;
+	background-size: cover;
+	max-height: 200px;
+	height: 100%;
+}
+.categoties span
+{
+	font-size: 16px;
+}
+.post-category-page
+{
+	width: 90%;
+}
+.polosa
+{
+	background: url(assets/images/texture.png) repeat;
+	background-size: cover;
+	height: 50px;
+	width: 100%;
+}
+#works .portfolio
+{
+	width: 96%;
+	max-width: 1400px;
+}
+#calendar_wrap th
+{
+	
+	padding-right: 5px;
+}
+.prosmotr
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.content-outer .prosm_col p
+{
+	font-size: 10px;
+	display: none;
+}
+
+.row-works
+{
+	max-width: 1300px;
+	width: 98%;
+}
+.works-block 
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 98%;
+	margin: 0 auto;
+}
+.works-block_item
+{
+	width: 100%;
+	max-height: 300px;
+	height: 100%;
+	margin: 10px;
+	justify-items: center;
+}
+.works-block_item_1
+{
+	background: url(assets/images/children-small.png);
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+.works-block_item_2
+{
+	background: url(assets/images/salad-tree-sm.png);
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.works-block_item_3
+{
+	background: url(assets/images/salad-tree-sm.png);
+	margin-right: 10px;
+}
+.works-block_item_4
+{
+	background: url(assets/images/children-small.png);
+	margin-right: 10px;
+}
+#works h4
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
