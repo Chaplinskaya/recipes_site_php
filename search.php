@@ -2,17 +2,12 @@
  <div class="content-outer">
    	<div id="page-content" class="row">
         <div id="primary-page-one" class="twelve columns">
-            
              <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                
-                
-                
                 <article class="post post-one-page post-search">
                	<div class="entry-header cf">
                   	<h1 class="text-center"><?php the_title(); ?></h1>
                   	<p class="post-meta">
-                  <time class="date" datetime="2014-01-14T11:24"><?php the_time('F jS, Y') ?></time>
-                   
+                  <time class="date" datetime="2014-01-14T11:24"><?php the_time('F jS, Y') ?></time> 
                   </br>
                   <span class="categories">
                      <?php the_category('/ '); ?>
@@ -26,9 +21,7 @@
                <div class="post-content">
                   <?php the_excerpt(); ?>
                </div>
-            </article> 
-                
-                
+            </article>    
                 <?php endwhile; else: ?>
                 <p>Поиск не дал результатов.</p>
              <?php endif;?>

@@ -12,7 +12,6 @@ get_header();
 }
 ?>
 <section id="intro">
-   
   <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-halves">
     <div id="carousel" class="flexslider">
     <script type="text/javascript">
@@ -50,10 +49,8 @@ get_header();
     flexslider.vars.maxItems = gridSize;
     });
   }());
-    </script>
-    
+    </script>  
   <ul class="slides">
-  
     <?php
       global $post;
       $args = array( 'numberposts' => -1, 'post_type' => 'slider');
@@ -74,10 +71,6 @@ get_header();
   </div> 
 </div>
 </section>   
-
-
-
-
 <section id="works">
   <div class="outer">
     <div id="page-content" class="row portfolio"> 
@@ -114,16 +107,11 @@ get_header();
                         wp_reset_postdata(); // сброс
                         ?>
                     </div>
-                    <!--<?php the_posts_pagination(); ?>-->
-                </div> <!-- primary end-->
-           
-           <!-- <div id="secondary-two" class="four columns end">
-	          	<?php get_sidebar(index); ?>
-	          	
-	        </div> <!-- Secondary End-->
-            
-            </div>
-            
+                    <?php the_posts_pagination(); ?>
+                </div>
+	          	  <?php get_sidebar(index); ?>  	
+	             </div>
+            </div> 
             <section class="entry cf">
                 <div class="twelve columns align-center">
                     <div id="primary-main" class="twelve columns portfolio-list">
@@ -134,7 +122,7 @@ get_header();
                           $posts = get_posts( array(
                           'numberposts' => 3,
                           'post_type'   => 'relevant_children',
-                          'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+                          'suppress_filters' => true,
                           ) );
                           foreach( $posts as $post ){
                             setup_postdata($post);
@@ -157,7 +145,7 @@ get_header();
                             wp_reset_postdata(); // сброс
                             ?>
                         </div>
-                    </div> <!-- primary end-->
+                    </div> 
                 </div>
             </section>
             
@@ -172,7 +160,7 @@ get_header();
                           $posts = get_posts( array(
                           'numberposts' => 6,
                           'post_type'   => 'popular',
-                          'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+                          'suppress_filters' => true,
                           ) );
                           foreach( $posts as $post ){
                             setup_postdata($post);
@@ -201,28 +189,15 @@ get_header();
         </div>
     </div>
 </section>
-
-
-
- <section id="call-to-action">
+<section id="call-to-action">
   <div class="row">
     <div class="twelve columns offset-1">
-      <!--<h1><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Рецепты, которые вам понравится готовить!</a></h1>-->
       <p>Новые рецепты каждую неделю. Рецепты для всей семьи 2018-2020</p>
-     <!--<a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-			Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. -->
-			<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
     </div>
-    <!--<div class="three columns action">
-      <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
-    </div>-->
-  </div>
-  
-</section> <!-- Call-To-Action Section End-->
-
-
- <!-- Tweets Section
-  ================================================== -->
+  </div>  
+</section>
+<!-- Tweets Section
+================================================== -->
 <section id="tweets">
 	<div class="row">
 	    
@@ -232,6 +207,5 @@ get_header();
 </section>  <!-- Tweets Section End-->
 <!-- footer
    ================================================== -->
-
    <?php get_footer(); ?>
    

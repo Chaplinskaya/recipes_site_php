@@ -13,9 +13,6 @@
 
   gtag('config', 'UA-154822763-1');
 </script>
-
-    
-   
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -59,13 +56,9 @@
                      <input type="text" name="s" placeholder="Поиск рецепта на сайте" value="<?php if(!empty($_GET['s'])){echo $_GET['s'];}?>"/>
                      <button type="submit"></button>
                   </div>
-               </form>
-               
-               
-               
+               </form>     
             </div>
          </div>
-            
             <div class="twelve columns">
             <nav id="nav-wrap">
                <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -79,8 +72,6 @@
                )); ?>             
             	
             </nav> <!-- end #nav-wrap -->
-         </div>
-         
+         </div>    
       </div>
-     
-   </header> <!-- Header End -->
+   </header>

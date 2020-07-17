@@ -14,7 +14,6 @@ function test_content($content) {
 	return $content;
 }
 
-
 add_action( 'init', 'register_post_types' );
 function register_post_types(){
 	register_post_type('portfolio', array(

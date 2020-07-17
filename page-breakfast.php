@@ -5,7 +5,6 @@ Template Name: breakfast
 */
 ?>
 <?php get_header(); ?>
-
 <div class="works-item content-outer">
   <div id="page-content" class="row portfolio">
     <section class="entry cf">
@@ -45,21 +44,16 @@ Template Name: breakfast
             <?php the_posts_pagination(); ?>
           </div>
         </div> <!-- primary end-->
-      
-</div>
-
+      </div>
       </section> <!-- end section -->
     </div> <!-- #page-content end-->
   </div> <!-- content End-->
-
 <!-- Tweets Section
    ================================================== -->
 <section id="tweets">
-	<div class="row">
-	    
-            <?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
-        
-	</div>
+<div class="row">
+	<?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
+</div>
 </section>  <!-- Tweets Section End-->
 <!-- footer
 ================================================== -->

@@ -1,7 +1,6 @@
 <?php 
 /*
 Template Name: azeton
-
 */
 ?>
 <?php get_header(); ?>
@@ -10,9 +9,6 @@ Template Name: azeton
     <section class="entry cf">
       <div class="twelve columns align-center">
         <h1></h1>
-    
-        
-
         <div id="primary-main" class="twelve columns portfolio-list">
           <div id="portfolio-wrapper" class="bgrid-thirds cf">
             <?php
@@ -45,45 +41,9 @@ Template Name: azeton
             <?php the_posts_pagination(); ?>
           </div>
         </div> <!-- primary end-->
-      
-</div>
-   
-      </section> <!-- end section -->
-    </div> <!-- #page-content end-->
-  </div> <!-- content End-->
-
-<!-- Tweets Section
-   ================================================== -->
-<!--<section id="tweets">
-  <div class="row">
-    <div class="tweeter-icon align-center">
-      <i class="fa fa-twitter"></i>
-    </div>
-    <ul id="twitter" class="align-center">
-      <li>
-        <span>
-          This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-          Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-          <a href="#">http://t.co/CGIrdxIlI3</a>
-        </span>
-        <b><a href="#">2 Days Ago</a></b>
-      </li>
-      --> 
-      <!--
-      <li>
-        <span>
-          This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-          Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-          <a href="#">http://t.co/CGIrdxIlI3</a>
-        </span>
-        <b><a href="#">3 Days Ago</a></b>
-      </li>
-      -->
-    <!--</ul>
-    <p class="align-center"><a href="#" class="button">Follow us</a></p>
-  </div>
-</section> --> <!-- Tweet Section End-->
-
-<!-- footer
+      </div>
+    </section> <!-- end section -->
+  </div> <!-- #page-content end-->
+</div> <!-- content End-->
 ================================================== -->
-   <?php get_footer(); ?>
+<?php get_footer(); ?>
